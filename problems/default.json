@@ -1,0 +1,7 @@
+[
+  "Design a rate-limiting system that still works well under sudden 100x traffic spikes and partial network partitions.",
+  "How would you design a local multi-agent system that can safely self-improve its own prompts over time without drifting into nonsense?",
+  "Propose a memory architecture for a 32B model running on 128GB unified memory that needs to keep very long agent sessions (weeks) without catastrophic forgetting of important decisions.",
+  "What is a good way to detect and recover when an LLM agent starts hallucinating tool results in a multi-step workflow?",
+  "Design a simple but robust way to do online preference learning from user thumbs-up / thumbs-down feedback on a local model without training a large separate reward model."
+]
