@@ -34,6 +34,17 @@ python adhd_reasoner.py "Your problem here" --compare
 python adhd_reasoner.py --batch problems/default.json
 ```
 
+# 生成完 teacher 資料後
+python convert_to_sft.py results/teacher_raw/adhd_batch_XXXX.json \
+  --output sft_sharegpt.json \
+  --format sharegpt
+
+# 或只要最終答案、不要完整分支
+python convert_to_sft.py results/teacher_raw/adhd_batch_XXXX.json \
+  --output sft_alpaca.json \
+  --format alpaca \
+  --no-branches
+
 Environment variables (optional):
 
 ```bash
